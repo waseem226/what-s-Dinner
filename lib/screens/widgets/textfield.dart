@@ -31,6 +31,7 @@ class CustomTextField extends StatelessWidget {
           borderRadius: BorderRadius.circular(2)),
       child: Center(
         child: TextFormField(
+          controller: fieldController,
           readOnly: readOnly ?? false,
           validator: validationField,
           onChanged: onChanged,

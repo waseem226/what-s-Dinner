@@ -34,7 +34,7 @@ class AppBbutton extends StatelessWidget {
           onPressed: () {
             btnCallBack();
           },
-          child: Text(bntName, style: btnTextStyle),
+          child: Text(bntName, style: btnTextStyle!.copyWith(color: textColor)),
         ));
   }
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478073629102",
+    "project_id": "what-s-dinner",
+    "storage_bucket": "what-s-dinner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478073629102:android:8f41142602c377c1e5c03f",
+        "android_client_info": {
+          "package_name": "com.example.whats_for_dinner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478073629102-ak6c2e0p5c43tqnsqc5t11s9qcqu9kab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0X80ZNw5zLnQK9RDHKK4E7_MBPhz6JV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478073629102-ak6c2e0p5c43tqnsqc5t11s9qcqu9kab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

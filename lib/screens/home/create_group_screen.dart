@@ -234,13 +234,9 @@ class _CreateGroupScreenState extends State<CreateGroupScreen> {
 }
 
 errorAlert(String alertValue) {
-  if (alertValue.isNotEmpty) {
-    showOkAlertDialog(
-      context: Get.context!,
-      title: "Error",
-      message: alertValue,
-    );
-  } else {
-    Null;
-  }
+  showOkAlertDialog(
+    context: Get.context!,
+    title: "Error",
+    message: alertValue,
+  );
 }

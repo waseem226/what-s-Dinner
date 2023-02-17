@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:whats_for_dinner/screens/login/number_screen.dart';
+import 'package:whats_for_dinner/screens/login/sign_up_screen.dart';
 import 'package:whats_for_dinner/screens/widgets/button.dart';
 import 'package:whats_for_dinner/utils/colors.dart';
 import 'package:whats_for_dinner/utils/strings.dart';
@@ -57,7 +58,7 @@ class WelcomeScreen extends StatelessWidget {
                     bntName: AppStrings.phoneLogin,
                     btnTextStyle: AppStyle.buttonText,
                     btnColor: AppColors.whiteColor,
-                    btnCallBack: () => Get.to(() => NumberScreen())),
+                    btnCallBack: () => Get.to(() => SignUpScreen())),
                 SizedBox(height: 43),
                 RichText(
                   textAlign: TextAlign.center,
